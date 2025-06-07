@@ -65,26 +65,15 @@ h2{
     text-align: center;
 }
 
+.secondary-header{
+    background-color: black;
+    height: 100px;
+    color: white;
+}
 .menu a{
 color: white;
 text-decoration: none;
 
-}
-.secondary-header{
-    background-color: black;
-    background-position: center center;
-    background-size: cover;
-    height: 300px;
-    color: white;
-    text-align: center;
-    
-}
-.secondary-flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-decoration-line: none;
-    
 }
 
 
@@ -114,4 +103,63 @@ margin-right: 10px;
 .about-img{
     width: 60%;
     margin-right: 10px;
+}
+
+.courses-flex{
+      display:flex;
+      flex-direction: column;
+      
+}
+.img-flex{
+ display: flex;
+ flex-direction: column;
+ margin-right: 10px;
+ width: 100%;
+ height: 100%;
+ object-fit: contain;
+ image-rendering: auto;
+ 
+}
+.p-flex{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 22px;
+    font-family: bold;
+}
+      
+
+
+/*contact*/
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-container{
+    margin-top: -80px;
+}
+form{
+background-color: white;
+padding: 30px;
+}
+
+input,textarea{
+width: 60%;
+border: 1px solid gray;
+padding: 5x;
+border-radius: 5px;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+form div{
+margin-bottom: 20px;
+display: flex;
+align-items: center;
 }
